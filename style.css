@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  background-image: url('https://images.pexels.com/photos/4913313/pexels-photo-4913313.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+
+}
+.calculator{
+    margin: 100px auto;
+    padding:50px 40px;
+    background-color: #05a3bc00;;
+    max-width: 350px;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+box-shadow: -1px 5px 14px 0px #8c8c8c2b;
+
+}
+h1{
+    font-family: 'Merienda', cursive;
+    color: #fffde7;
+    text-shadow: 1px 2px 5px #565555;
+}
+p{
+    color: #fffde7;
+    font-size:20px;
+    margin: 0;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+input,select{
+    font-size:22px;
+    color: rgb(114, 83, 3);
+}
+input,select{
+    border-radius: 10px;
+   
+    border: 2px solid rgb(177, 127, 1);
+  
+    background-color: rgba(255, 255, 255, 0.295);
+    outline:none;
+}
+.select option{
+    background-color: rgb(209, 209, 209) !important;
+}
+button{
+    background-color: rgb(177, 127, 1);
+border: none;
+color: #fff2f2;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 50px;
+    font-size:20px;
+    transition: .2s ease-in;
+    outline:none;
+}
+button:hover{
+    transition: .3s ease-out;
+    background-color: rgb(202, 160, 53); 
+}
+input{
+    margin:15px 0;
+    padding: 10px 30px;
+}
+select{
+    padding: 10px 75px;
+    margin:  0 10px;
+}
+input::placeholder{
+    text-align: center;
+    color:rgb(160, 116, 5);
+}
+.porcentaje{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}

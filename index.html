@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de propinas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <h1>Calculadora de propinas</h1>
+        <input type="text" class="monto" placeholder="Monto gastado"></input>
+        <input type="text" class="personas" placeholder="Número de personas">
+       <div class="porcentaje">
+           <p>Porcentaje</p>
+        <select class="select" name="select">
+             <option style="background-color:transparent"value="0.10">10%</option>
+            <option style="background-color:transparent" value="0.20" selected>20%</option>
+            <option style="background-color:transparent" value="0.30">30%</option>
+          </select>
+       </div>
+        <p id="total">Total:</p>
+        <button id="calcular">Calcular</button>
+        <script src="./script.js"></script>
+    </div>
+    </body>
+    </html>
